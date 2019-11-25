@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16720D0C2381393800078CF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16720D0B2381393800078CF5 /* AppDelegate.m */; };
+		16720D0F2381393800078CF5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16720D0E2381393800078CF5 /* SceneDelegate.m */; };
+		16720D122381393800078CF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16720D112381393800078CF5 /* ViewController.m */; };
+		16720D172381394100078CF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16720D162381394100078CF5 /* Assets.xcassets */; };
+		16720D1D2381394100078CF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16720D1C2381394100078CF5 /* main.m */; };
+		16720D2623813B1300078CF5 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16720D2523813B1300078CF5 /* MainController.m */; };
+		16720D2923813BBF00078CF5 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16720D2823813BBF00078CF5 /* NavigationController.m */; };
+		167D83E8238ABACB001E1DB8 /* CustomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 167D83E7238ABACB001E1DB8 /* CustomController.m */; };
+		1688391123814ACB0049C1ED /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 1688391023814ACB0049C1ED /* loading.png */; };
+		169C38E2238A0EF4002F4839 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 169C38E1238A0EF4002F4839 /* ImageCell.m */; };
+		169C38E5238A38B6002F4839 /* ImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 169C38E4238A38B6002F4839 /* ImageController.m */; };
+		4AADEE4CFD01A95B16E56BEF /* libPods-MOSAD_HW6.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D137F90072CA17B8EFAACEC4 /* libPods-MOSAD_HW6.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16720D072381393800078CF5 /* MOSAD_HW6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOSAD_HW6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16720D0A2381393800078CF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16720D0B2381393800078CF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16720D0D2381393800078CF5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		16720D0E2381393800078CF5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		16720D102381393800078CF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16720D112381393800078CF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16720D162381394100078CF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16720D1B2381394100078CF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16720D1C2381394100078CF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16720D2423813B0400078CF5 /* MainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		16720D2523813B1300078CF5 /* MainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		16720D2723813BB200078CF5 /* NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		16720D2823813BBF00078CF5 /* NavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		167D83E6238ABAB9001E1DB8 /* CustomCollection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCollection.h; sourceTree = "<group>"; };
+		167D83E7238ABACB001E1DB8 /* CustomController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomController.m; sourceTree = "<group>"; };
+		1688391023814ACB0049C1ED /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loading.png; path = ../../../../../manual/resources/loading.png; sourceTree = "<group>"; };
+		169C38E0238A0EDF002F4839 /* ImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		169C38E1238A0EF4002F4839 /* ImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		169C38E3238A38A9002F4839 /* ImageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageController.h; sourceTree = "<group>"; };
+		169C38E4238A38B6002F4839 /* ImageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageController.m; sourceTree = "<group>"; };
+		7534B596FAAD2D2C6EEC6333 /* Pods-MOSAD_HW6.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOSAD_HW6.release.xcconfig"; path = "Target Support Files/Pods-MOSAD_HW6/Pods-MOSAD_HW6.release.xcconfig"; sourceTree = "<group>"; };
+		D137F90072CA17B8EFAACEC4 /* libPods-MOSAD_HW6.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MOSAD_HW6.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD0220FB8AC8B8C65E7C20A /* Pods-MOSAD_HW6.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOSAD_HW6.debug.xcconfig"; path = "Target Support Files/Pods-MOSAD_HW6/Pods-MOSAD_HW6.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16720D042381393800078CF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AADEE4CFD01A95B16E56BEF /* libPods-MOSAD_HW6.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043B8ED0A66E48993261B8BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAD0220FB8AC8B8C65E7C20A /* Pods-MOSAD_HW6.debug.xcconfig */,
+				7534B596FAAD2D2C6EEC6333 /* Pods-MOSAD_HW6.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		16720CFE2381393800078CF5 = {
+			isa = PBXGroup;
+			children = (
+				16720D092381393800078CF5 /* MOSAD_HW6 */,
+				16720D082381393800078CF5 /* Products */,
+				043B8ED0A66E48993261B8BB /* Pods */,
+				A407A946F6CB5527E03B351B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16720D082381393800078CF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16720D072381393800078CF5 /* MOSAD_HW6.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16720D092381393800078CF5 /* MOSAD_HW6 */ = {
+			isa = PBXGroup;
+			children = (
+				169C38DF238A0EC7002F4839 /* Layout */,
+				16720D2323813A1E00078CF5 /* Controller */,
+				16720D0A2381393800078CF5 /* AppDelegate.h */,
+				16720D0B2381393800078CF5 /* AppDelegate.m */,
+				16720D0D2381393800078CF5 /* SceneDelegate.h */,
+				16720D0E2381393800078CF5 /* SceneDelegate.m */,
+				16720D102381393800078CF5 /* ViewController.h */,
+				16720D112381393800078CF5 /* ViewController.m */,
+				16720D162381394100078CF5 /* Assets.xcassets */,
+				16720D1B2381394100078CF5 /* Info.plist */,
+				16720D1C2381394100078CF5 /* main.m */,
+				1688390F23814AB20049C1ED /* Resources */,
+			);
+			path = MOSAD_HW6;
+			sourceTree = "<group>";
+		};
+		16720D2323813A1E00078CF5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				16720D2423813B0400078CF5 /* MainController.h */,
+				16720D2523813B1300078CF5 /* MainController.m */,
+				16720D2723813BB200078CF5 /* NavigationController.h */,
+				16720D2823813BBF00078CF5 /* NavigationController.m */,
+				169C38E3238A38A9002F4839 /* ImageController.h */,
+				169C38E4238A38B6002F4839 /* ImageController.m */,
+				167D83E6238ABAB9001E1DB8 /* CustomCollection.h */,
+				167D83E7238ABACB001E1DB8 /* CustomController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1688390F23814AB20049C1ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1688391023814ACB0049C1ED /* loading.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		169C38DF238A0EC7002F4839 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				169C38E0238A0EDF002F4839 /* ImageCell.h */,
+				169C38E1238A0EF4002F4839 /* ImageCell.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		A407A946F6CB5527E03B351B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D137F90072CA17B8EFAACEC4 /* libPods-MOSAD_HW6.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16720D062381393800078CF5 /* MOSAD_HW6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16720D202381394100078CF5 /* Build configuration list for PBXNativeTarget "MOSAD_HW6" */;
+			buildPhases = (
+				B5B01FC2DD0C9374948BA693 /* [CP] Check Pods Manifest.lock */,
+				16720D032381393800078CF5 /* Sources */,
+				16720D042381393800078CF5 /* Frameworks */,
+				16720D052381393800078CF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MOSAD_HW6;
+			productName = MOSAD_HW6;
+			productReference = 16720D072381393800078CF5 /* MOSAD_HW6.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16720CFF2381393800078CF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "梁俊华";
+				TargetAttributes = {
+					16720D062381393800078CF5 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 16720D022381393800078CF5 /* Build configuration list for PBXProject "MOSAD_HW6" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16720CFE2381393800078CF5;
+			productRefGroup = 16720D082381393800078CF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16720D062381393800078CF5 /* MOSAD_HW6 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16720D052381393800078CF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1688391123814ACB0049C1ED /* loading.png in Resources */,
+				16720D172381394100078CF5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B5B01FC2DD0C9374948BA693 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MOSAD_HW6-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16720D032381393800078CF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16720D122381393800078CF5 /* ViewController.m in Sources */,
+				16720D0C2381393800078CF5 /* AppDelegate.m in Sources */,
+				167D83E8238ABACB001E1DB8 /* CustomController.m in Sources */,
+				16720D1D2381394100078CF5 /* main.m in Sources */,
+				169C38E5238A38B6002F4839 /* ImageController.m in Sources */,
+				169C38E2238A0EF4002F4839 /* ImageCell.m in Sources */,
+				16720D2923813BBF00078CF5 /* NavigationController.m in Sources */,
+				16720D2623813B1300078CF5 /* MainController.m in Sources */,
+				16720D0F2381393800078CF5 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		16720D1E2381394100078CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16720D1F2381394100078CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16720D212381394100078CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD0220FB8AC8B8C65E7C20A /* Pods-MOSAD_HW6.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6M8U45D89N;
+				INFOPLIST_FILE = MOSAD_HW6/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alva.MOSAD-HW6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16720D222381394100078CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7534B596FAAD2D2C6EEC6333 /* Pods-MOSAD_HW6.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6M8U45D89N;
+				INFOPLIST_FILE = MOSAD_HW6/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alva.MOSAD-HW6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16720D022381393800078CF5 /* Build configuration list for PBXProject "MOSAD_HW6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16720D1E2381394100078CF5 /* Debug */,
+				16720D1F2381394100078CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16720D202381394100078CF5 /* Build configuration list for PBXNativeTarget "MOSAD_HW6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16720D212381394100078CF5 /* Debug */,
+				16720D222381394100078CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16720CFF2381393800078CF5 /* Project object */;
+}
