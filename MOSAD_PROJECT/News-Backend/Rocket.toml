@@ -1,0 +1,7 @@
+[development]
+log = "normal"
+port = 8001
+
+[production]
+log = "normal"
+port = 8000

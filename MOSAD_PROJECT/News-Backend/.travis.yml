@@ -1,0 +1,24 @@
+language: rust
+rust:
+  - nightly
+cache: cargo
+
+before_script:
+  - rustup component add rustfmt
+  - rustup component add clippy
+script:
+  - cargo fmt --all -- --check
+#  - cargo check --all --all-targets
+#  - cargo clippy --all --all-targets
+  - cargo build
+
+#after_success:
+#  - docker build -t dasinlsb/newsback:latest .
+#  - echo "$DOCKER_PASSWORD" | docker login -u $DOCKER_USERNAME --password-stdin
+#  - docker push dasinlsb/newsback:latest
+
+#deploy:
+#  provider: script
+#  script: bash ci/deploy.sh
+#  on:
+#    branch: master
